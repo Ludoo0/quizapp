@@ -1,35 +1,82 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: white;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 /* Navbar */
-.navbar{
-    display: flex;
-    background-color: rgb(31, 30, 30);
-    align-items: center;
-    text-decoration: none;
-    padding: 10px;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  background-color: rgb(31, 30, 30);
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: space-between;
+  color: white;
 }
-.headline{
-    display: flex;
+.headline {
+  display: flex;
 }
-#refresh{
-    padding-right: 25px;
+#refresh {
+  padding-right: 25px;
 }
-#refresh:hover{
-    cursor: pointer;
+#refresh:hover {
+  cursor: pointer;
 }
-.navbar h1{
-    padding-right: 100px;
+.navbar h1 {
+  padding-right: 100px;
 }
-.navbar a{
-    padding-right: 10px;
-    text-decoration: none;
-    color: white;
+.navbar a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
 }
-.navbar a:hover{
-    text-decoration: underline;
-    color: rgba(255, 255, 255, 0.671);
+.navbar a:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.671);
+}
+/* Fragenteil */
+.question-part {
+  background-color: rgb(153, 153, 153);
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+}
+.question {
+  background-color: grey;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.answer1 {
+  background-color: grey;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.answer {
+  background-color: grey;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.answer1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.671);
+}
+.answer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.671);
 }
