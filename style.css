@@ -1,0 +1,35 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: 0;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    background-color: rgb(31, 30, 30);
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    justify-content: space-between;
+}
+.headline{
+    display: flex;
+}
+#refresh{
+    padding-right: 25px;
+}
+#refresh:hover{
+    cursor: pointer;
+}
+.navbar h1{
+    padding-right: 100px;
+}
+.navbar a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.671);
+}
