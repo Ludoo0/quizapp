@@ -25,7 +25,7 @@ body {
   padding-right: 100px;
 }
 .navbar a {
-  padding-right: 10px;
+  padding-right: 20px;
   text-decoration: none;
   color: white;
 }
@@ -79,4 +79,29 @@ body {
   text-decoration: underline;
   cursor: pointer;
   background-color: rgba(128, 128, 128, 0.671);
+}
+/* addquestion classes */
+.questionfield {
+  background-color: grey;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  height: 60px;
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+}
+.answerfield {
+  background-color: grey;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
 }
