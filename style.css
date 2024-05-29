@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  padding: 0;
 }
 /* Navbar */
 .navbar {
@@ -22,7 +23,7 @@ body {
   cursor: pointer;
 }
 .navbar h1 {
-  padding-right: 100px;
+  padding-right: 10px;
 }
 .navbar a {
   padding-right: 20px;
@@ -89,7 +90,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 97%;
+  width: 87vw;
   height: 60px;
   font-size: 1.875rem;
   font-weight: bold;
@@ -104,5 +105,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85%;
+  width: 65vw;
 }
