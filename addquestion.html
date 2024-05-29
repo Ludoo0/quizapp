@@ -29,9 +29,18 @@
         <a href="addquestion.html">Frage hinzufügen</a>
       </div>
     </div>
-    <div class="question-part">
-      <input type="text" class="questionfield" placeholder="Frage" />
-      <input type="text" class="answerfield" placeholder="Antwort 1" />
-    </div>
+    <form class="question-part" id="q-part" >
+      <input type="text" class="questionfield" placeholder="Frage" id="Q" />
+      <input type="text" class="answerfield" placeholder="Antwort 1" id="A1" />
+      <input type="text" class="answerfield" placeholder="Antwort 2" id="A2" />
+      <input type="text" class="answerfield" placeholder="Antwort3" id="A3" />
+      <input
+        type="text"
+        class="answerfield"
+        placeholder="Richtige Antwort"
+        id="RA"
+      />
+      <button type="submit" onclick="SaveQuestion()">Frage abschicken</button>
+    </form>
   </body>
 </html>
